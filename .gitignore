@@ -1,0 +1,39 @@
+# ── Операционные системы ──
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ── Редакторы и IDE ──
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Зависимости и сборка (если появится npm) ──
+node_modules/
+dist/
+build/
+.cache/
+package-lock.json
+
+# ── Логи и временные файлы ──
+*.log
+npm-debug.log*
+*.tmp
+*.bak
+*.orig
+
+# ── Секреты (никогда не коммитим!) ──
+.env
+.env.*
+*.pem
+*.key
+
+# ── Архивы ──
+*.zip
+*.rar
+*.7z
